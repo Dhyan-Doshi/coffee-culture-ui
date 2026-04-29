@@ -1,0 +1,25 @@
+/* 🔥 INTRO */
+#intro {
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  background: radial-gradient(circle at center, #1a0f0a, #000);
+  overflow: hidden;
+  transition: opacity 1s ease;
+}
+
+#introCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-text {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  color: rgba(245,230,208,0.4);
+  animation: fadeIn 2s infinite alternate;
+}
